@@ -5,7 +5,8 @@
   "setupCommands": ["npm i", "npx hardhat compile"],
   "compileCommand": "npx hardhat compile",
   "tests": [
-    { "itShould": "Compile", "command": "sh learn_tests/76.sh" }
+    { "itShould": "Compile", "command": "sh learn_tests/76.sh" },
+    { "itShould": "Call getTokenReserves function", "command": "sh learn_tests/2.sh" }
   ],
   "learnerAccessibleFileList": ["contracts/*"]
 }
