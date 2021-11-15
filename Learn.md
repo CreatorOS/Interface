@@ -12,7 +12,7 @@ Interface
 
 ## Interacting with Uniswap contracts
 
-Uniswap is a decentralized crypt tradind protocal.
+Uniswap is a decentralized crypto trading protocol.
 We can interact with it by declaring it's interface and providing a definition of functions we want to use from that contract.
 
 Let's declare a UniswapV2Factory interface:
